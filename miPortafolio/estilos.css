@@ -1,0 +1,204 @@
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.Limbert{
+    font-family: 'Monserrat', sans-serif;
+    color: violet;
+}
+
+.Fondo,
+.portafolio{
+    width:100vw;
+    height: 100vh;
+    background-image: url(imagenes/fondo.jpg);
+    background-size: cover;
+    color:aliceblue;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+.Menu{
+    color: violet;
+    display: flex;  
+    justify-content: space-around;
+    list-style: none;
+    width: 50%;
+}
+
+.Menu a{
+    color: violet;
+    text-decoration: none;
+}
+
+.Menu :hover{
+    background-color: violet;
+    border-radius: 5px;
+    color: blue;
+}
+
+main{
+    color: white;
+    margin: 0 auto;
+    width: 80vw;
+    height: 80vh;
+
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+
+    
+}
+
+.main img{
+    width: 350px;
+    height: 450px;
+    border: 7px solid blueviolet;
+}
+
+h1{
+    font-size: 3em;
+}
+
+.Sobremi span{
+    color: rgb(248, 16, 78);
+}
+
+span{
+    color: violet;
+}
+
+.Sobremi{
+    background-image: url(imagenes/fondo3.jpg);
+    background-size: cover;
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    width: 100vw;
+    align-items: center;
+}
+
+.Sobremi img{
+    width: 100%;
+    grid-column: 1/5;
+    border: 10px solid black;
+}
+
+.informacion{
+    grid-column: 5/10;
+    padding: 2em;
+}
+
+.portafolio{
+    height: 60vh;
+    color: blueviolet;
+}
+
+.portafolio .contenedor{
+    display: flex;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.7em;
+}
+
+.detalles{
+    display: flex;
+    justify-content: center;
+    margin: 1em;
+}
+
+.detalles button{
+    border-radius: 10px;
+    background-color: blueviolet;
+    font-size: 20px;
+    padding: 4px 20px;
+}
+
+.carta img{
+    width: 205px;
+    height: 205px;
+    margin: 1em;
+}
+
+.formulario{
+    background-image: url(imagenes/fondo3.jpg);
+    background-size: cover;
+    height: 60vh;
+    width: 100vw;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.registro{
+    height: 30vh;
+    width: 60vw;
+    margin: 0 auto;
+}
+
+.registro fieldset{
+    background: none;
+    height: 45vh;
+    width: 40vw;
+    text-align: center;
+}
+
+.registro legend{
+    color: violet;
+    font-size: 1.5em;
+    margin-bottom: 12px;
+}
+
+.registro textarea{
+    margin-top: 2vh;
+    background: none;
+    height: 18vh;
+    width: 20vw;
+}
+
+.registro button{
+    background-color: rgb(250, 58, 250);
+    border-radius: 5px;
+    font-size: 15px;
+    text-align: center;
+    width: 5em;
+}
+
+input{
+    padding: 10px 50px;
+  margin-bottom: 1em;
+  background: none;
+  border: none;
+  border-bottom: 1px solid black;
+  color: #fff;
+}
+
+footer{
+    background-image: url(imagenes/fondo.jpg);
+    background-size: cover;
+    height: 30vh;
+    padding: 0.5em;
+}
+
+footer .contenido{
+    color: violet;
+    margin-top: 1em;
+    text-align: center;
+}
+
+.sotial-networks {
+    display: flex;
+    justify-content: space-evenly;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.sotial-networks img{
+    width: 50px;
+}
+
