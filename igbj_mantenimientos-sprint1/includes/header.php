@@ -27,7 +27,7 @@
 
 
     <nav class="navbar navbar-dark bg-dark">
-        <div class="container">
+        <div class="container">-
             <div class="dropdown">
                 <button class="button" data-toggle="dropdown">
                     Activos
