@@ -1,0 +1,31 @@
+body{
+    font-family: "Homer Simpson UI";
+
+    margin: 0;
+
+}
+.nombre{
+    color: white;
+    margin-left: 100px;
+    font-size: 40px
+    
+   
+}
+header{
+    display: flex;
+    height: 150px;
+    background-color: #010D24;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 150px;
+    margin-right: 40px;
+    margin-left: 2ç30px;
+}

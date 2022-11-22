@@ -1,0 +1,37 @@
+h1{ 
+    color: black; 
+    margin-left: 500px; 
+} 
+ 
+.activo{ 
+    width: 1000px; 
+    margin: 0 auto; 
+} 
+ 
+/* .activo .selectores { 
+    margin-right: 230px; 
+    text-align: right; 
+} 
+ 
+.activo .entradas{ 
+    margin-right: 200px; 
+    text-align: right; 
+}  */
+ 
+.mb-3{ 
+    margin: 0 auto; 
+    margin-right: 10px; 
+    width:400px; 
+ 
+} 
+ 
+.activo .imgs{ 
+    margin-right:200px; 
+} 
+ 
+.imgs{ 
+    margin: 0 auto; 
+    margin-right: 60px; 
+    width:400px; 
+}
+
